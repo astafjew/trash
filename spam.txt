@@ -1,0 +1,4 @@
+Hello! 
+It's textfile for my testing!
+
+Don't read this 'cause its bullshit.

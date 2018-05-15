@@ -1,11 +1,5 @@
-lines = ['Hello ', 'world!']
-[print(l) for l in lines]
-print('aaa!')
-
-
-def main() -> None:
-    print('yow')
-
-
-if __name__ == '__main__':
-    main()
+with open(r'spam.txt', 'w') as file:
+    file.write('YO!')
+    file.flush()
+    fd = file.fileno()
+    print(fd)
