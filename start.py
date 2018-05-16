@@ -3,3 +3,4 @@ with open(r'spam.txt', 'w') as file:
     file.flush()
     fd = file.fileno()
     print(fd)
+    print('lol')
